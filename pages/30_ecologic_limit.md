@@ -1,19 +1,23 @@
 ---
 layout: title-content-slide
 label: Limite Ecologique
-title: Attention aux contre-arguments
+title: L'optimisation est une illusion
+clicks: 2
 ---
 
 ::Card
 <div class="arg-head">
-  <span class="arg-title">Certains usages sont déjà locaux</span>
+  <span class="arg-title">L'optimisation de l'IA réduira son impact</span>
 </div>
 
-- L'exemple présenté sera peut-être un jour réalisable par un modèle 32 Go qui tourne en local.
+- Les modèles gagnent en efficacité : l'exemple présenté sera peut-être un jour réalisable par un modèle 32 Go qui tourne en local.
 - Pour rappel, certains disaient que la qualité des sorties n'atteindrait jamais celle d'un développeur senior.
 ::
 
-::Card
+<div v-click="1" class="rebuttal-label">Mais</div>
+
+:::div{.grid .grid-cols-2 .gap-4}
+::CardOutline{v-click="1"}
 <div class="arg-head">
   <span class="arg-title">Pratique déjà obsolète</span>
 </div>
@@ -22,13 +26,14 @@ title: Attention aux contre-arguments
 - La mode des « loops » : réalisation d'un compilateur par IA autonome en continu pour 20 000 euros de tokens (janvier 2026).
 ::
 
-::Card
+::CardOutline{v-click="2"}
 <div class="arg-head">
-  <span class="arg-title">Aucune considération pour le ratio efficacité/coût</span>
+  <span class="arg-title">Effet rebond</span>
 </div>
 
-- On peut facilement lancer 100 agents en parallèle sur la même tâche et 10 agents chargés de sélectionner la meilleure réponse.
+- Chaque gain d'efficacité est réinvesti en usage : on peut facilement lancer 100 agents en parallèle sur la même tâche et 10 agents chargés de sélectionner la meilleure réponse.
 ::
+:::
 
 <style>
 .arg-head {
@@ -41,6 +46,14 @@ title: Attention aux contre-arguments
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--text-strong);
+}
+.rebuttal-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange);
+  padding-left: 1.5rem;
 }
 .slidev-layout .card-md ul { font-size: 0.85rem; }
 .slidev-layout .card-md ul li { margin-bottom: 0.15rem; }
