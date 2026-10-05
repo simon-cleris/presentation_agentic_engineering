@@ -2,8 +2,8 @@
 // Data centres: IEA, Energy and AI (2025). AI: IEA 4E, Data Centre Energy Use review (2025), reference year 2023.
 const rows = [
   { label: 'Data centers (% de l\'électricité mondiale)', a: '~1,5 % (415 TWh)', b: '~3 % (945 TWh)' },
-  { label: 'IA (% de l\'énergie des data centers)', a: '10–15 % (2023)', b: '35–50 %' },
-  { label: 'IA (énergie consommée)', a: '30–50 TWh (2023)', b: '200–400 TWh' },
+  { label: 'IA (% de l\'énergie des data centers)', a: '10–15 %', b: '35–50 %' },
+  { label: 'IA (énergie consommée)', a: '30–50 TWh', b: '200–400 TWh' },
 ]
 </script>
 

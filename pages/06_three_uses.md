@@ -25,10 +25,10 @@ clicks: 3
 <div v-click="2" class="card-navy card-md !py-2 !px-3">On utilise la "reflection" pour vulgariser une information que l'on a selectionné nous même</div>
 <div v-click="2" class="card-navy card-md !py-2 !px-3"> (Lien vers l'article) Voila ce que j'ai compris de cette article [...] : corrige ma compréhension</div>
 
-<div v-click="3" class="card-left-orange card-md !py-2 !px-3"><strong>Accélération d'une tâche maîtrisée</strong></div>
+<div v-click="3" class="card-left-orange card-md !py-2 !px-3"><strong>Réalisation d'une tâche</strong></div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Agent</div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Harness engineering</div>
-<div v-click="3" class="card-left-orange card-md !py-2 !px-3">On utilise la "reflection" pour réaliser une tâche pour laquelle on a fournis tout ce qui est necessaire à sa résolution</div>
+<div v-click="3" class="card-left-orange card-md !py-2 !px-3">On utilise la "reflection" pour réaliser une tâche on fourni plus ou moins tout ce qui est nécessaire à sa réalisation...</div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Voir la suite...</div>
 
 </div>
