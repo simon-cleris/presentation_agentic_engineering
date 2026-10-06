@@ -28,7 +28,7 @@ clicks: 3
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3"><strong>Réalisation d'une tâche</strong></div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Agent</div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Harness engineering</div>
-<div v-click="3" class="card-left-orange card-md !py-2 !px-3">On utilise la "reflection" pour réaliser une tâche on fourni plus ou moins tout ce qui est nécessaire à sa réalisation...</div>
+<div v-click="3" class="card-left-orange card-md !py-2 !px-3">On utilise la "reflection" pour réaliser une tâche et on fourni plus ou moins tout ce qui est nécessaire à sa réalisation...</div>
 <div v-click="3" class="card-left-orange card-md !py-2 !px-3">Voir la suite...</div>
 
 </div>
